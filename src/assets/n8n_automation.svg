@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#ffc107"/></marker>
+  </defs>
+  <rect width="760" height="240" rx="16" fill="#1e2530"/>
+  <text x="380" y="40" font-size="19" font-weight="bold" fill="#fff">n8n Workflow Automation</text>
+  <g fill="#2b3544" stroke="#ffc107" stroke-width="2">
+    <rect x="30" y="90" width="180" height="80" rx="10"/>
+    <rect x="290" y="90" width="180" height="80" rx="10"/>
+    <rect x="550" y="90" width="180" height="80" rx="10"/>
+  </g>
+  <g fill="#fff">
+    <text x="120" y="125">Trigger</text><text x="120" y="147" font-size="12" fill="#adb5bd">Email / Schedule</text>
+    <text x="380" y="125">n8n Workflow</text><text x="380" y="147" font-size="12" fill="#adb5bd">process &amp; connect services</text>
+    <text x="640" y="125">Action</text><text x="640" y="147" font-size="12" fill="#adb5bd">notify / monitor / automate</text>
+  </g>
+  <g stroke="#ffc107" stroke-width="2" fill="none" marker-end="url(#a)">
+    <path d="M210 130H288"/><path d="M470 130H548"/>
+  </g>
+  <text x="380" y="215" font-size="12" fill="#adb5bd">Illustrative flow</text>
+</svg>

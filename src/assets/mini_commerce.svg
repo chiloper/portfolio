@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#ffc107"/></marker>
+  </defs>
+  <rect width="880" height="330" rx="16" fill="#1e2530"/>
+  <text x="440" y="40" font-size="19" font-weight="bold" fill="#fff">Mini Commerce - Order &amp; Inventory Management</text>
+  <g fill="#2b3544" stroke="#ffc107" stroke-width="2">
+    <rect x="30" y="85" width="190" height="80" rx="10"/>
+    <rect x="345" y="85" width="190" height="80" rx="10"/>
+    <rect x="660" y="85" width="190" height="80" rx="10"/>
+  </g>
+  <g fill="#fff">
+    <text x="125" y="119">Web</text><text x="125" y="142" font-size="12" fill="#adb5bd">Next.js + React + Tailwind</text>
+    <text x="440" y="119">REST API</text><text x="440" y="142" font-size="12" fill="#adb5bd">NestJS + Prisma</text>
+    <text x="755" y="119">MySQL</text><text x="755" y="142" font-size="12" fill="#adb5bd">orders / products / promotions</text>
+  </g>
+  <g stroke="#ffc107" stroke-width="2" fill="none" marker-end="url(#a)">
+    <path d="M220 125H343"/><path d="M535 125H658"/>
+  </g>
+  <g fill="#fff" font-size="13">
+    <text x="440" y="215" font-weight="bold">Key features</text>
+    <text x="440" y="242" fill="#adb5bd">Guest cart (cookie) merged into the user cart on login</text>
+    <text x="440" y="264" fill="#adb5bd">Server-side pagination &amp; filters on orders, products, promotions</text>
+    <text x="440" y="286" fill="#adb5bd">Atomic stock update inside a transaction to prevent overselling</text>
+    <text x="440" y="308" fill="#adb5bd">Shipped orders are locked from status changes</text>
+  </g>
+</svg>

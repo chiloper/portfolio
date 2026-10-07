@@ -19,7 +19,7 @@ import postg from '../../assets/postg.png'
 import php from '../../assets/php.png'
 import nestjs from '../../assets/NestJS.png'
 import mssql from '../../assets/sql-server.jpg'
-import { Image } from 'react-bootstrap'
+import { Image, Badge } from 'react-bootstrap'
 
 function Skills() {
     return (
@@ -132,6 +132,16 @@ function Skills() {
                         <Image className='w-16 h-8 mx-3 object-fit-contain' src={mssql} />
                         <div className=' text-center small'> Microsoft SQL Server </div>
                     </div>
+                </div>
+            </div>
+            <div className=' d-flex flex-column py-2'>
+                <div className=' fs-5 fw-bold text-center text-sm-start'>
+                    Tools & Libraries
+                </div>
+                <div className=' py-2 d-flex flex-wrap gap-2 justify-content-center justify-content-sm-start'>
+                    {['Redis', 'n8n', 'RabbitMQ', 'ELK Stack', 'Microservices', 'Background Services', 'Prisma', 'Fastify', 'HeroUI', 'NextAuth', 'Swagger'].map((t) =>
+                        <Badge key={t} bg='secondary' className=' fw-normal'>{t}</Badge>
+                    )}
                 </div>
             </div>
         </div >

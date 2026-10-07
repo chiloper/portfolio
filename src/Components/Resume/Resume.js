@@ -92,38 +92,19 @@ function Resume() {
                             <div className=' small text-warning'>Oct 2024 - Current</div>
                             <div className=' small'>
                                 <ul>
-                                    <li>
-                                        Developed and designed a CMS web application using Next.js
-                                    </li>
-                                    <li>
-                                        Developed and designed APIs using NestJS.
-                                    </li>
-                                    <li>
-                                        Used n8n automation to facilitate monitoring
-                                    </li>
-                                    <li>
-                                        Used RabbitMQ to manage message queues and handle
-                                        system logs.
-                                    </li>
-                                    <li>
-                                        Migrated the microservice legacy system to Node.js.
-                                    </li>
-                                    <li>
-                                        Refactored MSSQL Server stored procedures into a new
-                                        system.
-                                    </li>
-                                    <li>
-                                        Deployed projects on Docker in a Linux environment.
-                                    </li>
-                                    <li>
-                                        Resolved system issues based on user feedback.
-                                    </li>
-                                    <li>
-                                        Created and updated system documentation.
-                                    </li>
-                                    <li>
-                                        Design and solve problems together with the team.
-                                    </li>
+                                    <li>Developed and designed CMS web applications using Next.js.</li>
+                                    <li>Developed and designed APIs using NestJS.</li>
+                                    <li>Maintained and migrated .NET and Angular projects to Node.js.</li>
+                                    <li>Implemented Redis caching to reduce database load and improve API response time.</li>
+                                    <li>Used n8n to automate tasks and reduce manual workload within the team.</li>
+                                    <li>Used RabbitMQ to manage message queues and handle system logs.</li>
+                                    <li>Migrated legacy microservices to Node.js microservice architecture.</li>
+                                    <li>Created analytical and monitoring reports using Kibana for marketing and system insights.</li>
+                                    <li>Refactored MSSQL stored procedures and optimized database performance for faster queries.</li>
+                                    <li>Deployed applications on Docker running in a Linux environment.</li>
+                                    <li>Resolved production issues based on user feedback and performed on-call duties to ensure system uptime.</li>
+                                    <li>Created technical documentation and collaborated with cross-functional teams to deliver effective solutions.</li>
+                                    <li>Provided system monitoring and issue resolution support during holidays.</li>
                                 </ul>
                             </div>
                         </Typography>
@@ -137,66 +118,28 @@ function Resume() {
                     </TimelineSeparator>
                     <TimelineContent className=' text-light'>
                         <Typography component={'span'}>
-                            Web Developer | Plan Creations Co. Ltd
+                            Junior Web Developer | Plan Creations Co. Ltd
                         </Typography>
                         <Typography component={'span'}>
                             <div className=' small text-warning'>June 2023 - Sep 2024</div>
                             <div className=' small'>
                                 <ul>
-                                    <li>
-                                        E-Commerce Development
-                                    </li>
+                                    <li>E-Commerce Development</li>
                                     <ul>
-                                        <li>
-                                            Developed and managed eCommerce websites using Shopify
-                                        </li>
-                                        <li>
-                                            Designed UX/UI and landing pages for eCommerce
-                                        </li>
+                                        <li>Developed and maintained eCommerce websites using Shopify.</li>
+                                        <li>Designed UI/UX and landing pages to enhance user journey and conversion.</li>
                                     </ul>
-                                    <li>
-                                        Frontend Development
-                                    </li>
+                                    <li>Frontend Development</li>
                                     <ul>
-                                        <li>
-                                            Utilized Laravel React and Angular for development
-                                        </li>
-                                        <li>
-                                            Employed Bootstrap 5 as a CSS framework to create responsive websites for desktop and mobile
-                                        </li>
+                                        <li>Worked with Laravel and Angular for developing dynamic web interfaces.</li>
                                     </ul>
-                                    <li>
-                                        Backend Development
-                                    </li>
+                                    <li>Backend Development</li>
                                     <ul>
-                                        <li>
-                                            Developed backend systems using Express.js and C# .NetCore
-                                        </li>
-                                        <li>
-                                            Created RESTful APIs
-                                        </li>
+                                        <li>Developed backend systems using Express.js and C# .NET Core.</li>
                                     </ul>
-                                    <li>
-                                        Database Management
-                                    </li>
+                                    <li>Database Management</li>
                                     <ul>
-                                        <li>
-                                            Oracle and  MySQL databases
-                                        </li>
-                                    </ul>
-                                    <li>
-                                        Operations Management
-                                    </li>
-                                    <ul>
-                                        <li>
-                                            Managed product stock
-                                        </li>
-                                        <li>
-                                            Monitored live streaming
-                                        </li>
-                                        <li>
-                                            Managed CRM systems
-                                        </li>
+                                        <li>Oracle and MySQL databases</li>
                                     </ul>
                                 </ul>
                             </div>

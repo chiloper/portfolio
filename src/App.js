@@ -31,7 +31,7 @@ function App() {
           <Col md={8} className='my-5 '>
             <Card className=' bg-dark  bg-gradient rounded-5 shadow min-vh-50'>
               <div className=' px-5 pt-1 text-end text-light small'>
-                Last Update: 1 November 2025
+                Last Update: 7 October 2026
               </div>
               <Home setToggle={setStatus} />
               {selectedStatus === 'Home' && <>
