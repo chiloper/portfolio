@@ -7,6 +7,8 @@ import fb from '../../../assets/face web.png'
 import plantoys from '../../../assets/plantoys.png'
 import mini from '../../../assets/mini_commerce_store.png'
 import port from '../../../assets/port.png'
+import github from '../../../assets/25231.png'
+import snapbook from '../../../assets/snapbook.png'
 import web from '../../../assets/web.png'
 import stockweb from '../../../assets/stockweb.png'
 import cms_gomoads from '../../../assets/cms_gomoads.png'
@@ -53,7 +55,17 @@ function FrontEnd() {
         work: 'Online store with an admin dashboard for orders, products, stock and promotions.',
         img: mini,
         zoom: true,
-        url: 'https://chiloper.github.io/Mini-Commerce-Order-Inventory-Management-System/'
+        url: 'https://chiloper.github.io/Mini-Commerce-Order-Inventory-Management-System/',
+        repo: 'https://github.com/chiloper/Mini-Commerce-Order-Inventory-Management-System'
+    }, {
+        name: 'Snapbook',
+        type: 'personal',
+        des: 'Next.js + React + TypeScript + Tailwind + Chart.js',
+        work: 'Income and expense tracker that reads bank transfer slips with AI OCR and summarizes them into monthly reports.',
+        img: snapbook,
+        zoom: true,
+        url: 'https://chiloper.github.io/Snapbook/',
+        repo: 'https://github.com/chiloper/Snapbook'
     }, {
         name: 'Portfolio',
         type: 'personal',
@@ -83,11 +95,18 @@ function FrontEnd() {
                             <div className=' text-center py-1 fs-6 fw-bold'>{data.name} </div>
                             <div className=' text-center w-100 small'>{data.des} </div>
                             <div className=' text-center w-100 small text-secondary'>{data.work} </div>
-                            {data.url &&
+                            {(data.url || data.repo) &&
                                 <div className=' m-auto w-25 h-25 my-2 d-flex justify-content-center' >
-                                    <Link to={data.url} target='_blank' className=' w-50'>
-                                        <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={web} />
-                                    </Link>
+                                    {data.url &&
+                                        <Link to={data.url} target='_blank' className=' w-50'>
+                                            <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={web} />
+                                        </Link>
+                                    }
+                                    {data.repo &&
+                                        <Link to={data.repo} target='_blank' className=' w-50'>
+                                            <Image className=' d-block m-auto w-75 h-75 object-fit-contain' rounded src={github} />
+                                        </Link>
+                                    }
                                 </div>
                             }
                         </div>

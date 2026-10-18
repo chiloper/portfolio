@@ -6,6 +6,7 @@ import fb from '../../../assets/facebook-logo-facebook-icon-transparent-free-png
 import cms_gomoads from '../../../assets/cms_gomoads.png'
 import notify from '../../../assets/notify_service.svg'
 import n8nImg from '../../../assets/n8n_automation.svg'
+import snapbook from '../../../assets/snapbook.png'
 import mini from '../../../assets/mini_commerce.svg'
 import stockapi from '../../../assets/stock.png'
 function BackEnd() {
@@ -49,6 +50,13 @@ function BackEnd() {
         des: 'NestJS + Prisma + MySQL',
         work: 'REST API for orders, inventory and promotions with atomic stock updates to prevent overselling.',
         img: mini,
+        zoom: true
+    }, {
+        name: 'Snapbook API',
+        type: 'personal',
+        des: 'NestJS + Supabase + Google Gemini + PostgreSQL',
+        work: 'REST API that extracts transactions from bank slip images with AI OCR, with authentication and monthly summaries.',
+        img: snapbook,
         zoom: true
     }, {
         name: 'Facebook API',
